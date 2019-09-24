@@ -1,0 +1,300 @@
+
+.container {
+
+    height: 100%;
+    position: relative;
+
+}
+
+span {
+
+    cursor: pointer;
+}
+
+
+/* Start Header */
+
+header {
+    
+    height: 90px;
+    overflow: hidden;
+       
+}
+
+
+header .header-items {
+
+    margin: 0;
+    
+}
+
+
+header .google-logo {
+
+    float: left;
+    margin : 25px 20px;
+
+}
+
+
+header .search-box {
+
+    width: 630px; 
+    height: 45px;
+    border-radius: 25px;
+    border: 0.9px solid #E4E4E4;
+    float: left;
+    margin-top: 25px;
+    margin-left: 12px;
+    padding-left: 16px;
+    font-size: 20px;
+    color: #5f6368;
+    text-align: left;
+
+}
+
+
+header .images1 {
+
+    float: right;
+    margin-top: 25px;
+    margin-right: 19px;
+    margin-left: 30px;
+   
+}
+
+
+header .images2 {
+    float: right;
+    margin-top: 27px;
+}
+
+
+/* End Header */
+
+
+/* Start Sub Header */
+
+nav {
+
+    display: inline;
+}
+
+
+nav ul.main-nav {
+
+    list-style-type:none;
+}
+
+
+nav ul.main-nav li {
+    float: left;
+    margin:10px 15px;
+    padding-left: 15px;
+    
+}
+
+
+nav ul.main-nav li.special1 {
+    margin-left: 125px;
+    
+}
+
+nav ul.another-nav {
+
+    list-style-type:none;
+
+}
+
+nav ul.another-nav li {
+
+    float: left;
+    margin: 10px;
+    
+}
+
+
+nav ul.another-nav li.special2 {
+
+    margin-left: 100px;
+}
+
+
+a:link {
+
+    text-decoration: none;
+    font-size: 12pt;
+    font-family: calibri;
+    color: #5f6368;
+}
+
+
+a:hover {
+
+    text-decoration: underline;
+    color: #1A73E8;
+   
+}
+
+
+hr {
+
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 0.7px;
+    color: #dadada;
+  
+}
+
+
+/* End Sub Header */
+
+
+/* Start Content */
+
+.content {
+
+    position: absolute;
+    width: 700px;
+    height: auto;
+    float: left;
+
+}
+
+.content article {
+    margin-top: 40px;
+    margin-left: 160px;
+
+}
+
+article h3  {
+
+   color: #1a0dab;
+   font-family: 'Noto Naskh Arabic UI',arial,sans-serif;
+   font-weight: normal;
+
+}
+
+article p {
+
+    font-family: 'Noto Naskh Arabic UI',arial,sans-serif;
+    font-size: 16px;
+    color: #545454;
+}
+
+.videos {
+
+    width:700px;
+}
+
+
+h2 {
+
+    margin-left: 160px;
+    margin-top: 60px;
+    margin-bottom: 1px;
+    font-family: 'Noto Naskh Arabic UI',arial,sans-serif;
+    font-weight: normal;
+}
+
+.videos ul {
+
+    margin-left: 100px;
+    
+}
+
+  .videos ul li {
+
+    border: 0.5px solid grey ;
+    border-radius: 9px;
+    overflow: hidden;
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-left:20px;
+    margin-top: 11px;
+    margin-bottom: 0;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 60PX;
+
+}
+
+
+.last-content ul{
+
+    float: left;
+    margin-top: 0px;
+    margin-left: 110px;
+    
+}
+
+.last-content ul li h2{
+
+    margin-left: 0px;
+    font-family: 'Noto Naskh Arabic UI',arial,sans-serif;
+    font-weight: normal;
+}
+
+.last-content ul li {
+
+    list-style-type: none;
+    display: block;
+    padding: 3px;
+    overflow: hidden;
+    clear: both;
+
+
+}
+
+
+/*  End Content */
+
+
+/* Start Footer */
+
+.footer {
+
+    background-color:#F1F1F1;
+    color:#6A6969;
+    padding: 1px 0px;
+    margin-bottom:0px;
+    position: absolute;
+    width: 99%;
+    bottom: 0;
+    position: fixed;
+    overflow: hidden;
+
+}
+
+.footer ul{
+
+    
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    padding-right: 0;
+    font-family:verdana;
+    font-size: 13px;
+
+}
+
+.footer ul li {
+
+    float: left;
+    padding: 8px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0px;
+
+}
+
+.footer ul .special-format-footer{
+
+    float: right;
+}
+
+/* End Footer */
